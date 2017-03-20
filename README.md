@@ -6,7 +6,7 @@ A minimal tip calculator!
 * Used basic MVC and Object-Oriented Programming Methodologies
 * Used a minor extension on UIViewController to hide the keypad when you tap outside of the text field
 * Changed the color of the keypad
-* An extended version will be released on the Apple Store and on Google Play
+* An extended version will be released on the App Store and on Google Play
 
 
 
