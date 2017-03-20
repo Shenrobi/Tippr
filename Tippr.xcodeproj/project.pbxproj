@@ -12,6 +12,7 @@
 		E4019C331E5FD26B00CCBF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4019C311E5FD26B00CCBF04 /* Main.storyboard */; };
 		E4019C351E5FD26B00CCBF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4019C341E5FD26B00CCBF04 /* Assets.xcassets */; };
 		E4019C381E5FD26B00CCBF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4019C361E5FD26B00CCBF04 /* LaunchScreen.storyboard */; };
+		E4019C401E5FEC8D00CCBF04 /* TipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4019C3F1E5FEC8D00CCBF04 /* TipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E4019C341E5FD26B00CCBF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4019C371E5FD26B00CCBF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4019C391E5FD26B00CCBF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4019C3F1E5FEC8D00CCBF04 /* TipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		E4019C2C1E5FD26B00CCBF04 /* Tippr */ = {
 			isa = PBXGroup;
 			children = (
+				E4019C421E5FF29D00CCBF04 /* Model */,
+				E4019C411E5FF28800CCBF04 /* View */,
+				E4019C431E5FF2AF00CCBF04 /* Controller */,
 				E4019C2D1E5FD26B00CCBF04 /* AppDelegate.swift */,
-				E4019C2F1E5FD26B00CCBF04 /* ViewController.swift */,
 				E4019C311E5FD26B00CCBF04 /* Main.storyboard */,
 				E4019C341E5FD26B00CCBF04 /* Assets.xcassets */,
 				E4019C361E5FD26B00CCBF04 /* LaunchScreen.storyboard */,
 				E4019C391E5FD26B00CCBF04 /* Info.plist */,
 			);
 			path = Tippr;
+			sourceTree = "<group>";
+		};
+		E4019C411E5FF28800CCBF04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E4019C421E5FF29D00CCBF04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4019C3F1E5FEC8D00CCBF04 /* TipModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E4019C431E5FF2AF00CCBF04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4019C2F1E5FD26B00CCBF04 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4019C401E5FEC8D00CCBF04 /* TipModel.swift in Sources */,
 				E4019C301E5FD26B00CCBF04 /* ViewController.swift in Sources */,
 				E4019C2E1E5FD26B00CCBF04 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +328,7 @@
 				E4019C3E1E5FD26B00CCBF04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
